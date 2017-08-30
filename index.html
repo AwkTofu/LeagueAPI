@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>League Item Build</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>-->
+		<script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+		<script type="text/javascript" src="league-api.js"></script>
+		<link rel="stylesheet" href="league-api.css">
+		<!--<script src="http://d3js.org/d3.v3.min.js" type="text/javascript"></script>-->
+	</head>
+
+	<body id= "body" align="center">
+		<div id= "header">
+			<p class= "title">
+				League of Legend Champion Sorted By:
+			</p>
+			<button class="button" onclick="organize_champion_alphabet()">Alphabetically</button>
+			<button class="button" onclick="organize_champion_difficulty()">Difficulty</button>
+			<button class="button" onclick="organize_champion_physical()">Attack Damage</button>
+			<button class="button" onclick="organize_champion_magical()">Magical Damage</button>
+			<p> 
+				Hover over to hear the 
+				<span style= "color: #ff0000">Physical</span>
+				 and 
+				<span style= "color: #0000ff">Magical</span>
+				 damage ratio. 
+			</p>
+		</div> 
+
+		<div id= "content">
+		</div>
+
+		<svg version="1.1" id="svg" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" viewBox="0 0 480 270" preserveAspectRatio="xMinYMin meet" style="position:absolute;">
+	</body>
+</html>

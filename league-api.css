@@ -1,0 +1,107 @@
+body {
+	margin:0;
+	background-color:#000;
+}
+
+img {
+	z-index: -1;
+	position: relative;
+}
+
+p {
+	color:#DA9A2B;
+}
+
+/* id */
+#header {
+	margin: auto;
+	width:95%; 
+	height: auto; 
+	margin-top: 10px; 
+	border-style: solid; 
+	border-width: 5px; 
+	border-color: #F8F2BD; 
+	background: #24252A;
+}
+
+#content {
+	margin: auto; 
+	padding: 10px;
+	width: 90%;
+}
+
+/* Class */
+.g {
+	float: top; 
+	float: left;
+	position: relative;
+}
+
+.title {
+	font-size:400%;
+}
+
+.button {
+	border-radius: 20px;
+	font-size: 40px;
+	float: top;
+	margin: auto;
+	background: #E0AE2F;
+}
+
+.ad {
+	color: #ff0000;
+	z-index: 0;
+	display: inline-block;
+	position:absolute;
+	text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;  
+}
+
+.ap {
+	color: #0000ff;
+	z-index: 0;
+	display: inline-block;
+	position:absolute;
+	text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;  
+}
+
+.num1 {
+	top: 31px;
+	font-size: 50%;
+}
+.num2 {
+	top: 62px;
+	font-size: 100%;
+}
+.num3 {
+	top: 125px;
+	font-size: 200%;
+}
+
+.ad.num1 {
+	left: 5px;
+}
+.ad.num2 {
+	left: 7px;
+}
+.ad.num3 {
+	left: 10px;
+}
+
+.ap.num1 {
+	left: 40px;
+}
+.ap.num2 {
+	left: 80px;
+}
+.ap.num3 {
+	left: 160px;
+}
